@@ -1,0 +1,43 @@
+
+EDA Inferences for Cleaned Sales Dataset:
+
+1. Summary Statistics:
+   - 'sales' and 'value' are both positively skewed with some high-value outliers.
+   - Mean sales per record is approximately 557.13.
+   - Dataset includes data across 3 unique categories, 3 products, and 4 regions.
+
+2. Histograms:
+   - 'sales' distribution is right-skewed, indicating a few high-revenue transactions.
+   - 'value' follows a similar pattern but generally on a lower scale.
+
+3. Boxplots:
+   - Outliers are present in both 'sales' and 'value', especially in certain categories.
+   - Median sales differ significantly across categories.
+
+4. Pairplot:
+   - 'sales' and 'value' are positively correlated.
+   - No strong visible correlation between product/category and numerical values in pairwise plots.
+
+5. Correlation Matrix:
+   - 'sales' and 'value' show a high positive correlation.
+   - Encoded categorical features like 'region' and 'category' show limited correlation with numerical values.
+
+6. Categorical Analysis:
+   - Certain products and categories generate higher average sales.
+   - Regional differences in sales suggest geographic trends in purchasing.
+
+7. 3D Scatter Plot:
+   - High sales tend to cluster in specific categories.
+   - Interactive plot shows regional grouping along sales and value axes.
+
+8. Patterns/Trends:
+   - Some products are consistently high revenue across all regions.
+   - A few categories dominate the sales distribution.
+
+9. Anomalies:
+   - Some records show unusually high sales or value—potential outliers or bulk transactions.
+
+10. Feature Inferences:
+   - 'category' and 'product' are strong indicators of sales performance.
+   - 'region' may influence purchasing behavior based on sales variation.
+
